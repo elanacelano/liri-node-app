@@ -1,11 +1,11 @@
 // var Twitter = require('BehrGirl');
 
-var client = new Twitter({
+exports.twitterKeys = {
   consumer_key: 'FALIJ7GWqcIAGxnEmkCCr7aZW',
   consumer_secret: 'NqAI6uRgH7czJpgTMlldS6kJvCwtLi70GR1Esgk8mg6QhChb6n',
   access_token_key: '872821784239886336-xLD3BKyJxF39yEmlpE0V5anm3R2frMS',
   access_token_secret: 'cxgTdc4ynwd3VICBdfNR9nA5MvfuevpN99DpY2QDVtJKi',
-});
+};
 
 	// keys.js
 // console.log('this is loaded');
@@ -32,13 +32,13 @@ var client = new Twitter({
 // 3. Here we put into action what we pieced together in step 1 and 2. See client.get (that's the same client we created in step 2.). All you need to do now is replace the word 'nodejs' with
 // your twitter handle or someone elses twitter handle.
 
-var params = {screen_name: 'BehrGirl'};
+			// var params = {screen_name: 'BehrGirl'};
 
-client.get('statuses/user_timeline', params, function(error, tweets, response) {
-  if (!error) {
-    console.log(tweets);
-  }
-});
+			// client.get('statuses/user_timeline', params, function(error, tweets, response) {
+			//   if (!error) {
+			//     console.log(tweets);
+			//   }
+			// });
 
 // client.get(path, params, callback);
 // client.post(path, params, callback);
