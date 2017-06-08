@@ -1,4 +1,4 @@
-var Twitter = require('twitter');
+// var Twitter = require('BehrGirl');
 
 var client = new Twitter({
   consumer_key: 'FALIJ7GWqcIAGxnEmkCCr7aZW',
@@ -7,6 +7,15 @@ var client = new Twitter({
   access_token_secret: 'cxgTdc4ynwd3VICBdfNR9nA5MvfuevpN99DpY2QDVtJKi',
 });
 
+	// keys.js
+// console.log('this is loaded');
+
+// exports.twitterKeys = {
+//   consumer_key: '<input here>',
+//   consumer_secret: '<input here>',
+//   access_token_key: '<input here>',
+//   access_token_secret: '<input here>',
+// }
 
 	// for Twitter api key (?)
 
@@ -31,4 +40,6 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
   }
 });
 
-
+// client.get(path, params, callback);
+// client.post(path, params, callback);
+// client.stream(path, params, callback);
