@@ -32,14 +32,6 @@ exports.twitterKeys = {
 // 3. Here we put into action what we pieced together in step 1 and 2. See client.get (that's the same client we created in step 2.). All you need to do now is replace the word 'nodejs' with
 // your twitter handle or someone elses twitter handle.
 
-			// var params = {screen_name: 'BehrGirl'};
-
-			// client.get('statuses/user_timeline', params, function(error, tweets, response) {
-			//   if (!error) {
-			//     console.log(tweets);
-			//   }
-			// });
-
 // client.get(path, params, callback);
 // client.post(path, params, callback);
 // client.stream(path, params, callback);
